@@ -322,7 +322,7 @@
  */
 //AFR 30.11.2019: type 11 is the original Anycubic thermistor
 //AFR 30.11.2019: Anycubic wrongly configured it as type 5 which is the E3D tube-type
-#define TEMP_SENSOR_0 5
+#define TEMP_SENSOR_0 11
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
