@@ -3,7 +3,8 @@
 https://drucktipps3d.de/forum/topic/anycubic-4max-pro-marlin-1-1-9-firmware-ai3m-basierend/?fbclid=IwAR2NWjZ8RARm2QpHTSNuO7hDn6Lr9Tce17_3R0D_kxf1R3-p1S5AHzcp0_I
 
 ## Before installing custom firmware
-- Save your config in EEPROM just in case
+- Save your config on EEPROM just in case
+- M503
 
 ## How to install
 - Use Arduino IDE
@@ -17,6 +18,7 @@ https://drucktipps3d.de/forum/topic/anycubic-4max-pro-marlin-1-1-9-firmware-ai3m
 ### Calibration
 
 ## How to use Auto Poweroff
+- To avoid damaging Hotend, must use M109 becore M81  
 - M109 R50 //Cooling Hotend to 50c and wait for
 - M81 //power off
 
