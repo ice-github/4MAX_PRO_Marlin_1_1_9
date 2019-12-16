@@ -17,7 +17,7 @@ https://drucktipps3d.de/forum/topic/anycubic-4max-pro-marlin-1-1-9-firmware-ai3m
 ### Calibration
 
 ## How to use Auto Poweroff
-- M109 R50 //Cooling to 50c and wait for
+- M109 R50 //Cooling Hotend to 50c and wait for
 - M81 //power off
 
 ## How to change Light brightness
