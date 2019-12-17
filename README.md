@@ -18,7 +18,7 @@ https://drucktipps3d.de/forum/topic/anycubic-4max-pro-marlin-1-1-9-firmware-ai3m
 ### Calibration
 
 ## How to use Auto Poweroff
-- To avoid damaging Hotend, must use M109 becore M81  
+- To avoid damaging Hotend, must submit M109 before M81  
 - M109 R80 //Cooling Hotend to 80c and wait for
 - M81 //power off
 
